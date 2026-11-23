@@ -1,0 +1,13 @@
+# Thư mục tạm và kết quả biên dịch của Vivado
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+
+# File log và backup của Vivado
+*.jou
+*.log
+*.str
+*.backup.*

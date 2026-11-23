@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="risc_cpu_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="risc_cpu_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="258.601 ns"></ZoomEndTime>
+      <Cursor1Time time="117.876 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="171"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/risc_cpu_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc_cpu_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc_cpu_tb/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[2:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[2:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc_cpu_tb/is_zero" type="logic">
+      <obj_property name="ElementShortName">is_zero</obj_property>
+      <obj_property name="ObjectShortName">is_zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc_cpu_tb/sel" type="logic">
+      <obj_property name="ElementShortName">sel</obj_property>
+      <obj_property name="ObjectShortName">sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc_cpu_tb/rd" type="logic">
+      <obj_property name="ElementShortName">rd</obj_property>
+      <obj_property name="ObjectShortName">rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc_cpu_tb/ld_ir" type="logic">
+      <obj_property name="ElementShortName">ld_ir</obj_property>
+      <obj_property name="ObjectShortName">ld_ir</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc_cpu_tb/halt" type="logic">
+      <obj_property name="ElementShortName">halt</obj_property>
+      <obj_property name="ObjectShortName">halt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc_cpu_tb/inc_pc" type="logic">
+      <obj_property name="ElementShortName">inc_pc</obj_property>
+      <obj_property name="ObjectShortName">inc_pc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc_cpu_tb/ld_ac" type="logic">
+      <obj_property name="ElementShortName">ld_ac</obj_property>
+      <obj_property name="ObjectShortName">ld_ac</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc_cpu_tb/ld_pc" type="logic">
+      <obj_property name="ElementShortName">ld_pc</obj_property>
+      <obj_property name="ObjectShortName">ld_pc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc_cpu_tb/wr" type="logic">
+      <obj_property name="ElementShortName">wr</obj_property>
+      <obj_property name="ObjectShortName">wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc_cpu_tb/data_e" type="logic">
+      <obj_property name="ElementShortName">data_e</obj_property>
+      <obj_property name="ObjectShortName">data_e</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc_cpu_tb/data_bus" type="array">
+      <obj_property name="ElementShortName">data_bus[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_bus[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc_cpu_tb/addr_bus" type="array">
+      <obj_property name="ElementShortName">addr_bus[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_bus[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc_cpu_tb/pc_addr" type="array">
+      <obj_property name="ElementShortName">pc_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc_cpu_tb/ir_addr" type="array">
+      <obj_property name="ElementShortName">ir_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ir_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc_cpu_tb/alu_out" type="array">
+      <obj_property name="ElementShortName">alu_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc_cpu_tb/ac_out" type="array">
+      <obj_property name="ElementShortName">ac_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ac_out[31:0]</obj_property>
+   </wvobject>
+</wave_config>

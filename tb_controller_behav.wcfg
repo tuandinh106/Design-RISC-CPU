@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="controller_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="controller_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="323.001 ns"></ZoomEndTime>
+      <Cursor1Time time="34.800 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="179"></NameColumnWidth>
+      <ValueColumnWidth column_width="74"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="32" />
+   <wvobject fp_name="/controller_tb/uut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_tb/uut/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_tb/uut/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[2:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_tb/uut/is_zero" type="logic">
+      <obj_property name="ElementShortName">is_zero</obj_property>
+      <obj_property name="ObjectShortName">is_zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_tb/uut/sel" type="logic">
+      <obj_property name="ElementShortName">sel</obj_property>
+      <obj_property name="ObjectShortName">sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_tb/uut/rd" type="logic">
+      <obj_property name="ElementShortName">rd</obj_property>
+      <obj_property name="ObjectShortName">rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_tb/uut/ld_ir" type="logic">
+      <obj_property name="ElementShortName">ld_ir</obj_property>
+      <obj_property name="ObjectShortName">ld_ir</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_tb/uut/halt" type="logic">
+      <obj_property name="ElementShortName">halt</obj_property>
+      <obj_property name="ObjectShortName">halt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_tb/uut/inc_pc" type="logic">
+      <obj_property name="ElementShortName">inc_pc</obj_property>
+      <obj_property name="ObjectShortName">inc_pc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_tb/uut/ld_ac" type="logic">
+      <obj_property name="ElementShortName">ld_ac</obj_property>
+      <obj_property name="ObjectShortName">ld_ac</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_tb/uut/ld_pc" type="logic">
+      <obj_property name="ElementShortName">ld_pc</obj_property>
+      <obj_property name="ObjectShortName">ld_pc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_tb/uut/wr" type="logic">
+      <obj_property name="ElementShortName">wr</obj_property>
+      <obj_property name="ObjectShortName">wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_tb/uut/data_e" type="logic">
+      <obj_property name="ElementShortName">data_e</obj_property>
+      <obj_property name="ObjectShortName">data_e</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_tb/uut/current_state" type="array">
+      <obj_property name="ElementShortName">current_state[7:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_tb/uut/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[7:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_tb/uut/is_alu_op" type="logic">
+      <obj_property name="ElementShortName">is_alu_op</obj_property>
+      <obj_property name="ObjectShortName">is_alu_op</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_tb/uut/INST_ADDR" type="array">
+      <obj_property name="ElementShortName">INST_ADDR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">INST_ADDR[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_tb/uut/INST_FETCH" type="array">
+      <obj_property name="ElementShortName">INST_FETCH[7:0]</obj_property>
+      <obj_property name="ObjectShortName">INST_FETCH[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_tb/uut/INST_LOAD" type="array">
+      <obj_property name="ElementShortName">INST_LOAD[7:0]</obj_property>
+      <obj_property name="ObjectShortName">INST_LOAD[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_tb/uut/IDLE" type="array">
+      <obj_property name="ElementShortName">IDLE[7:0]</obj_property>
+      <obj_property name="ObjectShortName">IDLE[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_tb/uut/OP_ADDR" type="array">
+      <obj_property name="ElementShortName">OP_ADDR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">OP_ADDR[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_tb/uut/OP_FETCH" type="array">
+      <obj_property name="ElementShortName">OP_FETCH[7:0]</obj_property>
+      <obj_property name="ObjectShortName">OP_FETCH[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_tb/uut/ALU_OP" type="array">
+      <obj_property name="ElementShortName">ALU_OP[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_OP[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_tb/uut/STORE" type="array">
+      <obj_property name="ElementShortName">STORE[7:0]</obj_property>
+      <obj_property name="ObjectShortName">STORE[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_tb/uut/HLT" type="array">
+      <obj_property name="ElementShortName">HLT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">HLT[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_tb/uut/SKZ" type="array">
+      <obj_property name="ElementShortName">SKZ[2:0]</obj_property>
+      <obj_property name="ObjectShortName">SKZ[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_tb/uut/ADD" type="array">
+      <obj_property name="ElementShortName">ADD[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ADD[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_tb/uut/AND" type="array">
+      <obj_property name="ElementShortName">AND[2:0]</obj_property>
+      <obj_property name="ObjectShortName">AND[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_tb/uut/XOR" type="array">
+      <obj_property name="ElementShortName">XOR[2:0]</obj_property>
+      <obj_property name="ObjectShortName">XOR[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_tb/uut/LDA" type="array">
+      <obj_property name="ElementShortName">LDA[2:0]</obj_property>
+      <obj_property name="ObjectShortName">LDA[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_tb/uut/STO" type="array">
+      <obj_property name="ElementShortName">STO[2:0]</obj_property>
+      <obj_property name="ObjectShortName">STO[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controller_tb/uut/JMP" type="array">
+      <obj_property name="ElementShortName">JMP[2:0]</obj_property>
+      <obj_property name="ObjectShortName">JMP[2:0]</obj_property>
+   </wvobject>
+</wave_config>
